@@ -63,7 +63,7 @@ const ProductCard = ({ product, className }: ProductCardProps) => {
               className="w-full bg-gradient-gold hover:bg-gradient-premium text-primary font-medium"
             >
               <ShoppingBag className="w-4 h-4 mr-2" />
-              Add to Cart
+              ກົດສັ່ງຊື້
             </Button>
           </div>
         </div>
