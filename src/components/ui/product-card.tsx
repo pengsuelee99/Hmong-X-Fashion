@@ -30,7 +30,7 @@ const ProductCard = ({ product, className }: ProductCardProps) => {
   const toggleWishlist = () => {
     setIsWishlisted(!isWishlisted);
     toast({
-      title: isWishlisted ? "Removed from Wishlist" : "Added to Wishlist",
+      title: isWishlisted ? "ລຶບອອກຈາກລາຍການທີ່ຢາກໄດ້ແລ້ວ" : "ເພີ່ມໃສ່ລາຍການທີ່ຢາກໄດ້ແລ້ວ",
       description: `${product.name} has been ${isWishlisted ? 'removed from' : 'added to'} your wishlist.`,
     });
   };
